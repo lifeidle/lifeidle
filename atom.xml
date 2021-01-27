@@ -2,32 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chenhua.net</id>
     <title>存在意志</title>
-    <updated>2020-10-07T13:31:23.049Z</updated>
+    <updated>2021-01-27T03:05:34.723Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chenhua.net"/>
     <link rel="self" href="https://chenhua.net/atom.xml"/>
     <subtitle>以闲为自在，将寿补蹉跎。</subtitle>
     <logo>https://chenhua.net/images/avatar.png</logo>
     <icon>https://chenhua.net/favicon.ico</icon>
-    <rights>All rights reserved 2020, 存在意志</rights>
+    <rights>All rights reserved 2021, 存在意志</rights>
     <entry>
         <title type="html"><![CDATA[杨浦滨江 兰州路1号]]></title>
-        <id>https://chenhua.net/post/杨浦滨江兰州路1号/</id>
-        <link href="https://chenhua.net/post/杨浦滨江兰州路1号/">
+        <id>https://chenhua.net/杨浦滨江兰州路1号/</id>
+        <link href="https://chenhua.net/杨浦滨江兰州路1号/">
         </link>
         <updated>2020-10-07T13:06:17.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[试试看]]></title>
-        <id>https://chenhua.net/post/试试看/</id>
-        <link href="https://chenhua.net/post/试试看/">
+        <title type="html"><![CDATA[君士坦丁大帝]]></title>
+        <id>https://chenhua.net/君士坦丁大帝/</id>
+        <link href="https://chenhua.net/君士坦丁大帝/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[克拉科夫历史中心 Historic Centre of Kraków]]></title>
+        <id>https://chenhua.net/试试看/</id>
+        <link href="https://chenhua.net/试试看/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></content>
     </entry>
 </feed>

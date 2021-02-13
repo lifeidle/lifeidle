@@ -1,142 +1,209 @@
 <html>
+
 <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content="" />
+<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>杨浦滨江 兰州路1号 | 存在意志</title>
-<link rel="shortcut icon" href="https://chenhua.net/favicon.ico?v=1613180150697">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<title>
+    杨浦滨江 兰州路1号 | 存在意志
+</title>
+<link rel="shortcut icon" href="https://chenhua.net/favicon.ico?v=1613181714670">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://chenhua.net/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chenhua.net/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script data-ad-client="ca-pub-0088997035636558" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<!-- DEMO JS -->
-<script src="media/scripts/index.js"></script>
-
-
+        
 </head>
+
 <body>
-  <div class="main">
-    <div class="main-content">
-      <div class="site-header">
-  <div class="container header-container">
-    <a class="title-container" href="https://chenhua.net">
-      
-      <img class="avatar" src="https://chenhua.net/images/avatar.png?v=1613180150697" alt="">
-      
-      <h1 class="site-title">
-        存在意志
-      </h1>
-    </a>
-    <div class="menu-container">
-      
-      
-      <a href="/" class="menu">
-        首页
-      </a>
-      
-      
-      
-      <a href="/archives" class="menu">
-        时间线
-      </a>
-      
-      
-      
-      <a href="/tags" class="menu">
-        标签
-      </a>
-      
-      
-      
-      <a href="/post/about" class="menu">
-        关于
-      </a>
-      
-      
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chenhua.net">
+                <img class="avatar" src="https://chenhua.net/images/avatar.png?v=1613181714670" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    存在意志
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    时间线
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
 
-      <div class="content container clearfix">
-        <div class="panel post-container">
-          <h4 class="panel-title">文章内容</h4>
-          <article class="post post-detail">
-            <h1 class="post-title">
-              杨浦滨江 兰州路1号
-            </h1>
-            <div class="post-info">
-              <time class="post-time">
-                发表于 · 2020-10-07 ·
-              </time>
-              
-              <a href="https://chenhua.net/跑步/" class="post-tag">
-                # 跑步
-              </a>
-              
-            </div>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-            
-            <div class="post-feature-image" style="background-image: url('https://wx3.sinaimg.cn/large/7f0e6ad4gy1g9rx4vc3snj23342bchdx.jpg')">
-            </div>
-            
-            <div class="post-content">
-              <p><img src="https://wx3.sinaimg.cn/large/7f0e6ad4gy1g9rx4vc3snj23342bchdx.jpg" alt="avatar" loading="lazy"><br>
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            杨浦滨江 兰州路1号
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-10-07</time>
+                            
+                                <a href="https://chenhua.net/跑步/" class="post-tag i-tag
+                            i-tag-other_4">
+                            #跑步
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://wx3.sinaimg.cn/large/7f0e6ad4gy1g9rx4vc3snj23342bchdx.jpg')"></div>
+                            
+                                <div class="post-content">
+                                    <p><img src="https://wx3.sinaimg.cn/large/7f0e6ad4gy1g9rx4vc3snj23342bchdx.jpg" alt="avatar" loading="lazy"><br>
 Yangpu Riverside No. 1 Lanzhou Road - photo by lifepurpose</p>
 
-            </div>
-          </article>
-
-          <div class="pagination-container">
-            
-            <a class="prev-btn" href="https://chenhua.net/君士坦丁大帝/">上一篇</a>
-            
-
-            
-            <a class="next-btn" href="https://chenhua.net/试试看/">下一篇</a>
-            
-          </div>
-
-          
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://chenhua.net/试试看/">
+                                <h3 class="post-title">
+                                    克拉科夫历史中心 Historic Centre of Kraków
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+				
+				    <!-- 公告栏 -->
+				
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chenhua.net/images/avatar.png?v=1613181714670)">
         </div>
-        <div class="sidebar">
-  <div class="panel slidebar-module">
-    <h4 class="panel-title">博主信息</h4>
-    <div class="blogger-panel">
-      <img class="avatar" src="https://chenhua.net/images/avatar.png?v=1613180150697" alt="">
-      <h5 class="author"></h5>
-      <p class="description"></p>
+        <h1 class="id_card-title">
+            存在意志
+        </h1>
+        <h2 class="id_card-description">
+            以闲为自在，将寿补蹉跎。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
     </div>
-  </div>
-  
-  
-</div>
-      </div>
-      <div class="site-footer">
-  <div class="container">
-    <div class="site-description">以闲为自在，将寿补蹉跎。</div>
     
-    <div class="footer-info">
-      <ul class="copyright clearfix">
-        <li>Powered by <a href="https://github.com/getgridea/gridea">Gridea</a></li>
-        <li>Theme by <a href="https://github.com/fullstack-kingj/gridea-theme-smartisan">Smartisan</a></li>
-        <li>Designed by <a href="https://jinyunlong.cc">KingJ</a></li>
-      </ul>
-      <ul class="icp clearfix">
-        
-        
-      </ul>
+                                    
+
+                        
+    <div class="notice-card i-card ">
+        <div class="notice-title i-card-title">标签</div>
+        <div class="notice-content">
+            <a href="http://localhost:4000/君士坦丁/">君士坦丁</a>
+<a href="http://localhost:4000/跑步/">跑步</a>
+<a href="http://localhost:4000/骑行/">骑行</a>
+        </div>
     </div>
-  </div>
+    
+
+                </div>
+
+
+            </div>
+
+
+            <div class="site-footer">
+  
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> - <a href="https://chenhua.net" target="_blank">存在意志</a> 以闲为自在，将寿补蹉跎。
 </div>
 
 <script>
   hljs.initHighlightingOnLoad()
 </script>
+
+
     </div>
-  </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
+
 </html>

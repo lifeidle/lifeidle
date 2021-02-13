@@ -1,130 +1,118 @@
 <html>
-
 <head>
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />
 <meta name="description" content="" />
-<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    存在意志
-</title>
-<link rel="shortcut icon" href="https://chenhua.net/favicon.ico?v=1611804104300">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<title>存在意志</title>
+<link rel="shortcut icon" href="https://chenhua.net/favicon.ico?v=1613180150697">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link rel="stylesheet" href="https://chenhua.net/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://chenhua.net/media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 </head>
-
 <body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://chenhua.net">
-                <img class="avatar" src="https://chenhua.net/images/avatar.png?v=1611804104300" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    存在意志
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    时间线
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/post/about" class="menu">
-                                    关于
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+  <div class="main">
+    <div class="main-content">
+      <div class="site-header">
+  <div class="container header-container">
+    <a class="title-container" href="https://chenhua.net">
+      
+      <img class="avatar" src="https://chenhua.net/images/avatar.png?v=1613180150697" alt="">
+      
+      <h1 class="site-title">
+        存在意志
+      </h1>
+    </a>
+    <div class="menu-container">
+      
+      
+      <a href="/" class="menu">
+        首页
+      </a>
+      
+      
+      
+      <a href="/archives" class="menu">
+        时间线
+      </a>
+      
+      
+      
+      <a href="/tags" class="menu">
+        标签
+      </a>
+      
+      
+      
+      <a href="/post/about" class="menu">
+        关于
+      </a>
+      
+      
     </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
+      <div class="content container clearfix">
+        <div class="panel tags-container">
+          <h4 class="panel-title">标签列表</h4>
+          <ul class="tag-list">
+            
+            <li>
+              <a href="https://chenhua.net/君士坦丁/">
+                <div class="tag" href="https://chenhua.net/君士坦丁/">君士坦丁</div>
+                <span class="count">1</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://chenhua.net/跑步/">
+                <div class="tag" href="https://chenhua.net/跑步/">跑步</div>
+                <span class="count">2</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://chenhua.net/骑行/">
+                <div class="tag" href="https://chenhua.net/骑行/">骑行</div>
+                <span class="count">1</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
 
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div class="tags-container main-container">
-                <div class="tags-group">
-                    
-                        <a class="tags-tag i-tag
-                            i-tag-other_2" href="https://chenhua.net/跑步/">
-                            跑步
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-banana" href="https://chenhua.net/君士坦丁/">
-                            君士坦丁
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-other_3" href="https://chenhua.net/骑行/">
-                            骑行
-                        </a>
-                        
-                </div>
-            </div>
-
-            <div class="site-footer">
-  
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> - <a href="https://chenhua.net" target="_blank">存在意志</a> 以闲为自在，将寿补蹉跎。
+      <div class="site-footer">
+  <div class="container">
+    <div class="site-description">以闲为自在，将寿补蹉跎。</div>
+    
+    <div class="footer-info">
+      <ul class="copyright clearfix">
+        <li>Powered by <a href="https://github.com/getgridea/gridea">Gridea</a></li>
+        <li>Theme by <a href="https://github.com/fullstack-kingj/gridea-theme-smartisan">Smartisan</a></li>
+        <li>Designed by <a href="https://jinyunlong.cc">KingJ</a></li>
+      </ul>
+      <ul class="icp clearfix">
+        
+        
+      </ul>
+    </div>
+  </div>
 </div>
 
 <script>
   hljs.initHighlightingOnLoad()
 </script>
-
     </div>
+  </div>
 </body>
-
 </html>
